@@ -1,3 +1,7 @@
+// by Electromente
+// Testing HC-SR04, Serial print information and physical response: LED and buzzer advice.
+// 07/04/2021 
+
 #define echoPin 8 // attach pin D8 Arduino to pin Echo of HC-SR04
 #define trigPin 9 //attach pin D9 Arduino to pin Trig of HC-SR04
 #define LEDW 6 // attach pin PWM6 Arduino to RedLed
