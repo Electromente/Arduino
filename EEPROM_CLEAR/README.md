@@ -1,4 +1,4 @@
-# SERVO_TEST
-<br>// by IDR</br>
+# EEPROM_CLEAR
+<br>// by IDK</br>
 <br>// To clear Arduino Eeprom.</br>
 <br>// N/A</br>
