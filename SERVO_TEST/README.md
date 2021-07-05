@@ -1,2 +1,5 @@
-# Servo test
-To test this code is required the "Servo" library from arduino.cc
+# SERVO_TEST
+// by IDK
+// Testing miniservo motor.
+// Required a Servo library from Arduino.cc
+// 03/16/2021
