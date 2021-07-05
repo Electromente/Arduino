@@ -1,4 +1,2 @@
-# SERVO_TEST
-// by Electromente
-// Testing miniservo control.
-// 03/16/2021
+# Servo test
+To test this code is required the "Servo" library from arduino.cc
