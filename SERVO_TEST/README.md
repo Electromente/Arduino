@@ -1,5 +1,5 @@
 # SERVO_TEST
-// by IDK
-// Testing miniservo motor.
+// by Scott Fitzgerald
+// Testing miniservo motor controlled by a potentiometer.
 // Required a Servo library from Arduino.cc
-// 03/16/2021
+// 11/08/2013
