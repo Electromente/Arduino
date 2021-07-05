@@ -1,2 +1,2 @@
 # Servo test
-This test requires a "Servo" library from arduino.cc
+To test this code is required the "Servo" library from arduino.cc
