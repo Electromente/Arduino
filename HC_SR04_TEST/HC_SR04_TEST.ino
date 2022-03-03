@@ -8,6 +8,7 @@
 #define LEDOK 4 // attach pin D4 Arduino to Greenled
 #define buzzerpin 10 // attach pin D2 Arduino to buzzer
 
+
 long duration; // variable for the duration of sound wave travel
 int distance; // variable for the distance measurement
 int valorled; // variable for the Led brightnes value
@@ -34,7 +35,7 @@ void loop() {
 
 // measure the distance using HC-SR04
 void measure(){
-    digitalWrite(trigPin, LOW);
+  digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
@@ -76,7 +77,7 @@ void led() {
 
 // warning buzzer if the sensor measurment is less than 10cm
 void buzzer(){
-  if (valorled >= 170){
+  if (distance <= 10){
     tone(buzzerpin,2000);
   }
   else {
